@@ -1,30 +1,24 @@
-body{
-    box-sizing: border-box;
-    background-image: url(../img/mignature.png);
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.card{
+    background-color: unset;
+    border: unset;
+}
+
+.backgroung{
+    background-image: url('../img/backgroung.png');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    background-attachment: fixed;
-    height: 100%;
-    background-position-y: -67px;
-    /* background-position-y: -510px; */
-    object-fit: contain;
-
-    padding-top: 0px;
-    padding-bottom: 20px;
-    zoom: 100%;
-}
-@media(max-width: 1360px){
-    body{
-        background-position-y: 40px;
-    }
-}
-
-@media(min-width: 1363px) and (max-width: 1516){
-    body{
-        background-position-y: 25px;
-    }
+    height: 100vh;
+    width: 100%;
+    background-color: #F1F1F1;
 }
 
 .navbar{
@@ -45,473 +39,83 @@ body{
 .navbar ul .active{
     color: #22a483 !important;
 }
-.navbar ul .hamburgernav{
-    color: #565656;
-    margin-left: 20px;
-    margin-top: 0%;
-    font-size: 11px;
+.backgroung .card ul li{
+    display: inline-flex;
+    margin: 0px 33px 0px 35px;
+    color: #7d7d7d;
 }
-/* .navBackgroung .backgroungImg{
-    background-image: url('../img/mignature.png');
+.logoBackground .bigLogo{
+    width: 22%;
+    background-image: url('../img/2.png');
     background-size: cover;
-    background-repeat: no-repeat;
-
-} */
-.navBackgroung .leftsideImg{
-    position: absolute;
-    top: -4%;
-    z-index: 0;
-    height: 58%;
+    margin-top: -50px;
 }
-.navBackgroung .rightsideImg{
-    position: absolute;
-    writing-mode: vertical-rl;
-    height: 674%;
-    top: 350%;
-    left: 66%;
-}
-.navBackgroung .greenIconRightSide{
-    position: absolute;
-    writing-mode: vertical-rl;
-    height: 199%;
-    top: 162%;
-    left: 84%;
-    z-index: 1;
-}
-.navBackgroung .rightBlackRobot{
-    position: absolute;
-    top: 71%;
-    z-index: 1;
-    height: 30%;
-}
-.navBackgroung .decorationnav{
-    position: absolute;
-    writing-mode: vertical-rl;
-    height: 20%;
-    top: -3%;
-    z-index: 1;
-}
-.centredHomelogoBack{
-    position: absolute;
-    z-index: 2;
-    height: 60%;
-    top: 4%;
-    opacity: .5;
-}
-@media(max-width: 991px){
-    .centredHomelogoBack{
-        position: absolute;
-        z-index: 2;
-        display: grid;
-    }
-}
-
-.centredHomelogo{
-    position: absolute;
-    z-index: 2;
-    object-position: 40px;
-    height: 50%;
-    top: 12%;
-}
-
-
-@media(max-width: 991px){
-    .centredHomelogo{
-        position: absolute;
-        z-index: 2;
-        display: grid;
-    }
-}
-
-
-
-/*start batery animation */
-
-/* for 125% => margin-left: 123px;width: 32px; */
-/* for 100% => margin-left: 146px */
-
-.animate .animatecharger{
-    position: relative;
-    z-index: 3;
-    margin-left: -13px;
-    position: relative;
-    top: -3px;
-    left: -21px;
-}
-.animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-    position: relative;
-    z-index: 3;
-    margin-left: -13px;
-    position: relative;
-    top: -3px;
-    left: -35px;
-}
-
-.quiSomeNous .quiSomeNousText{
-    position: relative;
-    z-index: 2;
-    width: 48%;
-    left: 34%;
-    top: 63px;
-    height: 532px;
-    overflow: scroll;
-}
-@media(max-width: 1395px){
-    .quiSomeNous .quiSomeNousText{
-        position: relative;
-        z-index: 2;
-        width: 48%;
-        left: 34%;
-        top: -24px;
-        height: 532px;
-        overflow: scroll;
-    }
-}
-
-
-
-/* end  batery animation*/
-
-.produit .lineandBackG{
-    position: absolute;
-    z-index: 0;
-    max-width: 100%;
-    top: 9%;
-}
-.produit .powerBankmachineImg{
-    position: absolute;
-    z-index: 2;
-    width: 50%;
-    top: 21%;
-    margin-left: 11%;
-}
-.produit p:first-of-type{
-    position: absolute;
-    z-index: 2;
-    color: #138D6E;
-    margin-left: 61%;
-    top: 18%;
-    font-size: 34px;
-    font-family: 'Myriad Pro bold';
-    letter-spacing: 1px;
-    width: max-content;
-}
-.produit p:nth-of-type(2){
-    position: absolute;
-    z-index: 2;
-    color: white;
-    margin-left: 58%;
-    top: 24%;
-    font-size: 36px;
-    font-family: 'Myriad Pro bold';
-    letter-spacing: 1px;
-    width: max-content;
-}
-.produit p:nth-of-type(3){
-    position: absolute;
-    z-index: 2;
-    color: #7FBB57;
-    margin-left: 70%;
-    top: 31%;
-    font-size: 34px;
-    font-family: 'Myriad Pro bold';
-    letter-spacing: 1px;
-    width: max-content;
-}
-.produit p:nth-of-type(4){
-    position: absolute;
-    z-index: 2;
-    color: #138D6E;
-    margin-left: 64.5%;
-    top: 35%;
-    font-size: 34px;
-    font-family: 'Myriad Pro bold';
-    letter-spacing: 1px;
-    width: max-content;
-}
-
-.centerIteam .card{
-    background-color: unset;
-    border: none;
-}
-.centerIteam .logo-iteam{
-    position: relative;
-    max-width: 24%;
-    top: -20px;
-    z-index: 0;
-}
-.centerIteam .cardImgTop{
-    background-image: url(../img/2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 27%;
-}
-.centerIteam .titleOne{
+.backgroung .textOne{
     font-size: 36px;
     letter-spacing: 1px;
     color: #565656;
     font-weight: bold;
     font-family: 'Myriad Pro Semibold';
-    left: 34%;
 }
-.centerIteam .titleTwo{
+.backgroung .textTwo{
     color: white;
     background-color: #565656;
-    padding: 4px 0px;
+    padding: 8px 0px 5px 0px;
     font-size: 31px;
     font-family: 'Myriad Pro Semibold';
-    line-height: 26px;
-    max-width: 26%;
-    margin-left: 37%;
+    line-height: 25px;
+    margin: 0% 38%;
+    width: max-content;
 }
-.centerIteam .titleTwo::before{
+.backgroung .textTwo::before{
     content: "";
-    position: absolute;
-    height: 10px;
+    position: relative;
     background-color: #EFEFEF;
-    min-width: 8%;
-    margin-left: -10%;
-    margin-top: 7px;
+    padding: 0px 50px 0px 50px;
+    font-size: 10px;
+    top: -5px;
 }
-.centerIteam .titleTwo::after{
+.backgroung .textTwo::after{
     content: "";
-    position: absolute;
-    height: 10px;
+    position: relative;
     background-color: #EFEFEF;
-    min-width: 8%;
-    margin-left: 2%;
-    margin-top: 7px;
+    padding: 0px 50px 0px 50px;
+    font-size: 10px;
+    top: -5px;
 }
-.centerIteam .textButtom{
+.backgroung .textTree{
     color: #22a483;
     padding: 3px 0px;
     font-family: 'Myriad Pro Semibold';
-    font-size: 27px;
-    margin-top: -1%;
-}
-.centerIteam .copyright{
-    color: #7d7d7d;
-    font-size: 22px;
-    margin-top: -1%;
-}
-.centerIteam .logo-buttom{
-    max-width: 6%;
-    margin-top: -1%;
-}
-
-.centerIteam ul li{
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-    z-index: 2;
-    margin: -1% 3% -1% 0%;
-    font-size: 30px;
-    color: #7d7d7d;
-}
-.centerIteam .animate{transform: rotate(270deg);position: relative;z-index: 3;left: -7px;width: 93%;top: 60px;}
-
-
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .animate .animatecharger{
-        position: relative;
-        z-index: 3;
-        margin-left: -23px;
-        position: relative;
-        top: -6px;
-        left: -3px;
-        width: 2%;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        position: relative;
-        z-index: 3;
-        margin-left: -23px;
-        position: relative;
-        top: -6px;
-        left: -3px;
-        width: 2%;
-    }
-    .centerIteam .animate{
-        transform: rotate(270deg);
-        position: relative;
-        z-index: 3;
-        left: 0px;
-        width: 93%;
-        top: 11px;
-        }
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-}
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-}
-
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
-
-
-.quiSomeNous p{
-    padding: 1% 20% 1% 37%;
-    position: relative;
-    top: -437px;
     font-size: 25px;
-    text-align: center;
+}
+.backgroung .copyright{
+    color: #7d7d7d;
+    font-size: 16px;
 }
 
-@media (min-width: 1600px) {
-    .animate .animatecharger{
-        position: relative;
-        z-index: 3;
-        margin-left: -18px;
-        position: relative;
-        top: -2px;
-        left: -12px;
-        width: 3%;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        position: relative;
-        z-index: 3;
-        margin-left: -18px;
-        position: relative;
-        top: -2px;
-        left: -40px;
-        width: 3%;
-    }
-    .centerIteam .animate{
-        transform: rotate(270deg);
-        position: relative;
-        z-index: 3;
-        /* top: 63px; */
-        left: -2px;
-        width: 92%;
-        top: 87px;
+@media(max-width: 990px){
+    .backgroung .textTwo{
+        margin: 0% 27%;
     }
 }
-
-/* 125% */
-@media only screen and (min-width: 1229px){
-    .centerIteam .animate{
-        left: -5px;
-        width: 93%;
-        top: -25px;
-    }
-    .centerIteam .titleOne{
-        margin-top: -27px;
-    }
-    .centerIteam .titleTwo{
-        margin-top: -13px;
-    }
-    .centerIteam .textButtom{
-        margin-top: -23px;
-    }
-    .centerIteam ul li{
-        margin: -2% 3% -1% 0%;
-    }
-    .centerIteam .logo-iteam{
-        max-width: 21%;
-    }
-    .animate .animatecharger{
-        top: 2px;
-        left: -70px;
-        width: 31px;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        top: 2px;
-        left: -93px;
-        width: 31px;
+@media(max-width: 768px){
+    .backgroung .textTwo{
+        margin: 0% 20%;
     }
 }
-/* 110% */
-@media only screen and (min-width: 1396px){
-    .centerIteam .animate{
-        left: -6px;
-        width: 93%;
-        top: 26px;
-    }
-    .centerIteam .titleOne{
-        margin-top: -27px;
-    }
-    .centerIteam .titleTwo{
-        margin-top: -13px;
-    }
-    .centerIteam .textButtom{
-        margin-top: -23px;
-    }
-    .centerIteam ul li{
-        margin: -2% 3% -1% 0%;
-    }
-    .centerIteam .logo-iteam{
-        max-width: 23%;
-    }
-    .animate .animatecharger{
-        top: -1px;
-        left: -32px;
-        width: 3%;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        top: -1px;
-        left: -70px;
-        width: 3%;
+@media(max-width: 600px){
+    .backgroung .textTwo{
+        margin: 0% 9%;
     }
 }
-/* 100% */
-@media only screen and (min-width: 1536px){
-    .centerIteam .titleOne{
-        font-size: 36px;
-        letter-spacing: 1px;
-        color: #565656;
-        font-weight: bold;
-        font-family: 'Myriad Pro Semibold';
-        margin-top: 0%;
-    }
-    .centerIteam .animate{
-        left: -7px;
-        width: 93%;
-        top: 9px;
-    }
-    .animate .animatecharger{
-        top: 1px;
-        left: -64px;
-        width: 3%;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        top: 1px;
-        left: -100px;
-        width: 3%;
+@media(max-width: 480px){
+    .backgroung .textTwo{
+        margin: 0% 2%;
     }
 }
-/* 90% */
-@media only screen and (min-width: 1707px){
-    .centerIteam .animate{
-        left: -10px;
-        width: 93%;
-        top: 14px;
-    }
-    .navBackgroung .rightsideImg{
-        top: 350%;
-        left: 70%;
-    }
-    .navBackgroung .greenIconRightSide{
-        left: 85%;
-    }
-    .centerIteam .titleOne{
-        margin-top: 2%;
-    }
-    .animate .animatecharger{
-        top: 1px;
-        left: -64px;
-        width: 3%;
-    }
-    .animate .animatecharger1, .animate .animatecharger2, .animate .animatecharger3, .animate .animatecharger4{
-        top: 1px;
-        left: -100px;
-        width: 3%;
+@media(max-width: 320px){
+    .backgroung .textTwo{
+        margin: 0% -24%;
     }
 }
