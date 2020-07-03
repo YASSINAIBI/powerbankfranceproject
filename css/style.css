@@ -186,3 +186,177 @@
         margin: 0% -24%;
     }
 }
+
+
+
+
+
+/* qui somme nous */
+.card .QuiSommeNous img{
+    position: absolute;
+    top: -4%;
+    left: -2%;
+    width: 80%;
+}
+.card .QuiSommeNous p{
+    font-size: 22px;
+    padding: 3% 25% 0% 0%;
+}
+.leftSideImg .leftSide{
+    position: relative;
+    top: 157px;
+    left: 41px;
+}
+/* 25% */
+@media(max-width: 6144px){
+    .card .QuiSommeNous p{
+        font-size: 107px;
+    }
+    .leftSideImg .leftSide{
+        top: 881px;
+    } 
+}
+/* 33% */
+@media(max-width: 4608px){
+    .card .QuiSommeNous p{
+        font-size: 79px;
+    }
+    .leftSideImg .leftSide{
+        top: 694px;
+    } 
+}
+/* 50% */
+@media(max-width: 3072px){
+    .card .QuiSommeNous p{
+        font-size: 52px;
+    }
+    .leftSideImg .leftSide{
+        top: 440px;
+    } 
+}
+/* 67% */
+@media(max-width: 2304px){
+    .card .QuiSommeNous p{
+        font-size: 39px;
+    }
+    .leftSideImg .leftSide{
+        top: 250px;
+    } 
+}
+/* 75% */
+@media(max-width: 2048px){
+    .card .QuiSommeNous p{
+        font-size: 34px;
+    }
+    .leftSideImg .leftSide{
+        top: 227px;
+    } 
+}
+/* 80%*/
+@media(max-width: 1920px){
+    .card .QuiSommeNous p{
+        font-size: 32px;
+    }
+    .leftSideImg .leftSide{
+        top: 187px;
+    } 
+}
+/* 90% */
+@media(max-width: 1707px){
+    .card .QuiSommeNous p{
+        font-size: 28px;
+    }
+    .leftSideImg .leftSide{
+        top: 193px;
+    } 
+}
+/* 110% */
+@media(max-width: 1396px){
+    .card .QuiSommeNous p{
+        font-size: 22px;
+    }
+    .leftSideImg .leftSide{
+        top: 154px;
+    } 
+}
+/* 100% */
+@media(max-width: 1536px){
+    .card .QuiSommeNous p{
+        font-size: 22px;
+    }
+    .leftSideImg .leftSide{
+        top: 157px;
+    } 
+}
+/* 125% */
+@media(max-width: 1229px){
+    .card .QuiSommeNous p{
+        font-size: 19px;
+    }
+    .leftSideImg .leftSide{
+        top: 136px;
+    } 
+}
+/* 150% */
+    @media(max-width: 1024px){
+        .card .QuiSommeNous p{
+            font-size: 16px;
+        }
+        .leftSideImg .leftSide{
+            top: 92px;
+        } 
+    }
+/* 175% */
+    @media(max-width: 877px){
+        .card .QuiSommeNous p{
+            font-size: 13px;
+        }
+        .leftSideImg .leftSide{
+            top: 79px;
+        } 
+    }
+/* 200% */
+@media(max-width: 768px){
+    .card .QuiSommeNous p{
+        font-size: 11px;
+    }
+    .leftSideImg .leftSide{
+        top: 79px;
+    } 
+}
+/* 250% */
+@media(max-width: 614px){
+    .card .QuiSommeNous p{
+        font-size: 8px;
+    }
+    .leftSideImg .leftSide{
+        top: 51px;
+    } 
+}
+/* 300% */
+@media(max-width: 512px){
+    .card .QuiSommeNous p{
+        font-size: 6px;
+    }
+    .leftSideImg .leftSide{
+        top: 35px;
+    } 
+}
+/* 400% */
+@media(max-width: 384px){
+    .card .QuiSommeNous p{
+        font-size: 4px;
+    }
+    .leftSideImg .leftSide{
+        top: 11px;
+    } 
+}
+/* 500% */
+@media(max-width: 307px){
+    .card .QuiSommeNous p{
+        font-size: 3px;
+    }
+    .leftSideImg .leftSide{
+        top: 13px;
+    } 
+}
