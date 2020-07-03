@@ -93,7 +93,64 @@
     color: #7d7d7d;
     font-size: 16px;
 }
-
+@media(max-width: 6144px){
+    .backgroung .textTwo{
+        margin: 0% 47.1%;
+    }
+} 
+/* 33% */
+@media(max-width: 4608px){
+    .backgroung .textTwo{
+        margin: 0% 46.1%;
+    }
+} 
+/* 50% */
+@media(max-width: 3072px){
+    .backgroung .textTwo{
+        margin: 0% 44%;
+    }
+} 
+/* 67% */
+@media(max-width: 2304px){
+    .backgroung .textTwo{
+        margin: 0% 42%;
+    }
+} 
+/* 75% */
+@media(max-width: 2048px){
+    .backgroung .textTwo{
+        margin: 0% 41.1%;
+    }
+}
+/* 80%*/
+@media(max-width: 1920px){
+    .backgroung .textTwo{
+        margin: 0% 40.5%;
+    }
+} 
+/* 90% */
+@media(max-width: 1707px){
+    .backgroung .textTwo{
+        margin: 0% 39%;
+    }
+} 
+@media(max-width: 1536px){
+    .backgroung .textTwo{
+        margin: 0% 38%;
+    }
+} 
+/* 110% */
+@media(max-width: 1396px){
+    .backgroung .textTwo{
+        margin: 0% 37%;
+    }
+} 
+/* 125% */
+@media(max-width: 1229px){
+    .backgroung .textTwo{
+        margin: 0% 35%;
+    }
+}
 @media(max-width: 1200px){
     .backgroung .textTwo{
         margin: 0% 34%;
